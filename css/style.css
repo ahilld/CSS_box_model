@@ -12,44 +12,50 @@ body{
     white-space: normal;
 }
 
+h1, h2, h3{
+    margin: 0;
+    padding: 1em 0;
+    font-weight: bold;
+}
+p{
+    padding: 1em 0;
+    margin: 0;
+}
 #hat{
     background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-origin: border-box;
-    height: 450px;
+    min-height: 48vh;
     color: white;
     text-align: center;
-
 }
 
 .shadow{
     background-color: rgba(51,51,51,0.6);
-    height: 100%;
+    min-height: 48vh;
 }
 
 #hat h1{
-    padding-top: 100px;
-    text-transform: capitalize;
+    padding-top: 3em;
 }
 
 #hat p{
-    padding: 1em;
     width: 50vw;
-    margin:auto;
+    margin: auto;
 }
 
 #hat a{
     padding: 1em 2em;
-    margin: 5px 1px;
-    border: 1px solid var(--secondary-color);
+    margin: 0.8em 0.2em;
+    border: 1px solid #666;
     color: var(--secondary-color);
     display: inline-block;
     text-decoration: none;
     text-transform: capitalize;
     background: var(--primary-color);
-    }
+}
 
 #hat a:hover{
     background: var(--secondary-color);
@@ -57,23 +63,15 @@ body{
 }
 
 .item1{
-    padding: 1.2em 0;
-    height: 250px;
+    height: 25vh;
     background-color: rgb(234, 234, 234);
     color: var(--primary-color);
     text-align: center;
-    }
-
-.item1 h2{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-transform: capitalize;
 }
 
 .item1 p{
-    padding-bottom: 1.2em;
-    max-width: 60vw;
-    max-height: 100px;
+    max-width: 50vw;
+    max-height: 8em;
     column-count: 2;
     margin: auto;
     overflow: hidden;
@@ -98,66 +96,53 @@ body{
     object-fit: cover;
 }
 
-.item2 h3, p{
+.item2 p{
     padding: 0.6em;
     margin: 0.6em;
-    white-space: normal;
 }
 .item3{
-    padding: 1.2em 0;
-    height: 200px;
-    background-color: rgb(234, 234, 234);
+    padding: 2em;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     text-align: center;
 }
 
-.item3 h2{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    }
-
 .item3 p{
-    padding-bottom: 1.2em;
-    max-width: 60vw;
-    max-height: 100px;
+    max-width: 50vw;
+    max-height: 13em;
     margin: auto;
     overflow: hidden;
 }
 
 .item4{
+    min-height: 35vh;
+}
+.item4 div{
     color: var(--secondary-color);
+    padding: 2em;
+    min-height: 35vh;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
 }
 
 .item4 #contactUs{
-    height: 40vh;
-    width: 50%;
     background-color: #2690d4;
-    display: inline-block;
-    text-align: center;
     float: left;
 }
 
 .item4 #aboutCompany{
-    height: 40vh;
-    width: 50%;
     background-color: var(--primary-color);
-    display: inline-block;
-    text-align: center;
-    }
-
-.item4 h2{
-    padding-top: 1.5em;
 }
 
 .item4 a{
-    padding-top: 1.2em;
     color: var(--secondary-color);
     text-decoration: none;
 }
 
 footer{
     text-align: center;
-    padding: 1.2em 0;
+    padding: 2em;
     color: var(--secondary-color);
     background-color: black;
 }
