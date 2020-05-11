@@ -90,7 +90,7 @@ body{
     background-color: var(--secondary-color);
     display: inline-block;
     text-align: center;
-    max-height: 50vh;
+    max-height: 80vh;
     min-width: 10em;
     }
 .item2 img{
@@ -122,4 +122,52 @@ body{
     max-height: 100px;
     margin: auto;
     overflow: hidden;
+}
+
+.item4{
+    color: var(--secondary-color);
+}
+
+.item4 #contactUs{
+    height: 40vh;
+    width: 50%;
+    background-color: #2690d4;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.item4 #aboutCompany{
+    height: 40vh;
+    width: 50%;
+    background-color: var(--primary-color);
+    display: inline-block;
+    text-align: center;
+    }
+
+.item4 h2{
+    padding-top: 1.5em;
+}
+
+.item4 a{
+    padding-top: 1.2em;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    padding: 1.2em 0;
+    color: var(--secondary-color);
+    background-color: black;
+}
+footer div{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer a{
+    color: #2690d4;
+    text-decoration: none;
 }
